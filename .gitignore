@@ -1,0 +1,6 @@
+JointBERT/atis_model
+JointBERT/data/cached_dev_atis_bert-base-uncased_50
+JointBERT/data/cached_test_atis_bert-base-uncased_50
+JointBERT/data/cached_train_atis_bert-base-uncased_50
+JointIDSF/JointBERT-CRF_PhoBERTencoder
+JointIDSF/JointIDSF_PhoBERTencoder
