@@ -1,10 +1,22 @@
+# general
 results/
 dataset_statistic.png
 JointModel.png
+
+# jointbert
 jointbert/atis_model/
 jointbert/data/atis/
 jointbert/data/cached_dev_atis_bert-base-uncased_50
 jointbert/data/cached_test_atis_bert-base-uncased_50
 jointbert/data/cached_train_atis_bert-base-uncased_50
+
+# jointisdf
 jointidsf/PhoATIS/syllable-level/
 jointidsf/PhoATIS/word-level/
+
+# my custom model
+my_model/PhoATIS/syllable-level/
+my_model/PhoATIS/word-level/
+my_model/run_jointBERT-CRF_XLM-Rencoder.sh
+my_model/run_jointIDSF_XLM-Rencoder.sh
+my_model/run_jointIDSF_PhoBERTencoder.sh
