@@ -1,0 +1,10 @@
+results/
+dataset_statistic.png
+JointModel.png
+jointbert/atis_model/
+jointbert/data/atis/
+jointbert/data/cached_dev_atis_bert-base-uncased_50
+jointbert/data/cached_test_atis_bert-base-uncased_50
+jointbert/data/cached_train_atis_bert-base-uncased_50
+jointidsf/PhoATIS/syllable-level/
+jointidsf/PhoATIS/word-level/
