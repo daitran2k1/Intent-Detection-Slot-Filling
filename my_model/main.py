@@ -46,7 +46,7 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=1, help="random seed for initialization")
     parser.add_argument("--train_batch_size", default=32, type=int, help="Batch size for training.")
     parser.add_argument("--eval_batch_size", default=64, type=int, help="Batch size for evaluation.")
-    parser.add_argument("--lstm_hiden_size", default=384, type=int, help="BiLSTM hidden size.")
+    parser.add_argument("--lstm_hidden_size", default=384, type=int, help="BiLSTM hidden size.")
     parser.add_argument(
         "--max_seq_len", default=50, type=int, help="The maximum total input sequence length after tokenization."
     )
