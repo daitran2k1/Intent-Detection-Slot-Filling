@@ -2,6 +2,7 @@
 results/
 dataset_statistic.png
 JointModel.png
+notes.txt
 
 # jointbert
 jointbert/atis_model/
@@ -20,3 +21,7 @@ my_model/PhoATIS/word-level/
 my_model/run_jointBERT-CRF_XLM-Rencoder.sh
 my_model/run_jointIDSF_XLM-Rencoder.sh
 my_model/run_jointIDSF_PhoBERTencoder.sh
+my_model/PhoATIS/cached_dev_word-level_phobert-base_50
+my_model/PhoATIS/cached_test_word-level_phobert-base_50
+my_model/PhoATIS/cached_train_word-level_phobert-base_50
+my_model/JointBERT-BiLSTM-CRF_PhoBERTencoder/3e-5/0.6/100
