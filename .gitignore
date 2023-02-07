@@ -1,8 +1,7 @@
 # general
 results/
-dataset_statistic.png
-JointModel.png
 notes.txt
+image/
 
 # jointbert
 jointbert/atis_model/
