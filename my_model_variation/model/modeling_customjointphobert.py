@@ -43,7 +43,7 @@ class CustomJointPhoBERT(RobertaPreTrainedModel):
         pooled_output = outputs[1]  # [CLS]
 
         intent_logits = self.intent_classifier(pooled_output)
-        slot_logits = self.bi_lstm(sequence_output)
+        slot_logits, _ = self.bi_lstm(sequence_output)
         slot_logits = self.slot_classifier(slot_logits)
 
         total_loss = 0
