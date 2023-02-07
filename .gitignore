@@ -24,3 +24,11 @@ my_model/PhoATIS/cached_dev_word-level_phobert-base_50
 my_model/PhoATIS/cached_test_word-level_phobert-base_50
 my_model/PhoATIS/cached_train_word-level_phobert-base_50
 my_model/JointBERT-BiLSTM-CRF_PhoBERTencoder/3e-5/0.6/100
+
+# my custom model variation
+my_model_variation/run_jointBERT-CRF_XLM-Rencoder.sh
+my_model_variation/run_jointIDSF_XLM-Rencoder.sh
+my_model_variation/run_jointIDSF_PhoBERTencoder.sh
+
+# my second custom model
+my_second_model/
