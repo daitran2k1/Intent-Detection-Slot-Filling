@@ -27,7 +27,7 @@ class CustomJointBERT(BertPreTrainedModel):
             self.crf = CRF(num_tags=self.num_slot_labels, batch_first=True)
 
     def forward(self, input_ids, attention_mask, token_type_ids, intent_label_ids, slot_labels_ids):
-        outputs = self.roberta(
+        outputs = self.bert(
             input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids
         )  # sequence_output, pooled_output, (hidden_states), (attentions)
         sequence_output = outputs[0]
